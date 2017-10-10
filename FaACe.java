@@ -16,9 +16,19 @@ public class FaACe {
 		return Fahrenheit;
 	}
 	
+	
+	public float getCelsius() {
+		return Celsius;
+	}
+
 	public float fahrenheitACelsius()
 	{
 		return ( 5/9F ) * ( Fahrenheit - 32 );
+	}
+	
+	public float celsiusAFahrenheit()
+	{
+		return ((9/5F * Celsius) + 32);
 	}
 
 }
