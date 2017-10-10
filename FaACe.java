@@ -9,8 +9,9 @@ public class FaACe {
 	
 	public FaACe(float Fahrenheit) {
 		this.Fahrenheit=Fahrenheit;
-		this.Celsuis=Celsuis;
-	
+	}
+	public FaACe(float Celsius) {
+		this.Celsius=Celsius;
 	}
 
 	public float getFahrenheit() {
