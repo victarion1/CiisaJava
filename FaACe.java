@@ -1,6 +1,6 @@
 /*
  * Lea una temperatura en grados Fahrenheit y la transforme a grados
- * Celsius usando la fórmula: C = ( 5/9 ) * ( F - 32 )
+ * Celsius usando la fÃ³rmula: C = ( 5/9 ) * ( F - 32 )
  */
 public class FaACe {
 
@@ -9,6 +9,7 @@ public class FaACe {
 	
 	public FaACe(float Fahrenheit) {
 		this.Fahrenheit=Fahrenheit;
+		this.Celsuis=Celsuis;
 	
 	}
 
